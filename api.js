@@ -78,7 +78,7 @@ export async function get_recent_release(){
 export async function get_popular() {
     try {
         //gogo-anime/popular
-      const data = await axios.get("http://localhost:3003/popular");
+      const data = await axios.get("https://webdis-ne9k.onrender.com/popular");
       return data
     } 
     catch (error) {
