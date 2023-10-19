@@ -11,7 +11,8 @@ export async function search_anime(name){
         return data
     }
     catch(err){
-        throw err
+              console.error("ANIME ID ERROR");
+
     }
 }
 
