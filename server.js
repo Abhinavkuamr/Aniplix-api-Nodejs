@@ -31,6 +31,10 @@ app.get('/api', (req, res) => {
     res.send("API WORKING")
 })
 
+app.get('/', (req, res) => {
+    res.send("API WORKING")
+})
+
 app.get('/api/top-airing' , async (req,res) => {
 
     const data = await top_air()
