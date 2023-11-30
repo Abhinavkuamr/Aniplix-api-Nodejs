@@ -6,14 +6,14 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "npm update && concurrently \"npm run server\" \"npm run client\"",
     "server": "nodemon server.js",
     "client": "cd client/client_side && npm start"
   },
   "author": "abhinav",
   "license": "ISC",
   "dependencies": {
-    "@consumet/extensions": "^1.5.1",
+    "@consumet/extensions": "github:consumet/consumet.ts",
     "axios": "^1.5.0",
     "cors": "^2.8.5",
     "express": "^4.18.2",
