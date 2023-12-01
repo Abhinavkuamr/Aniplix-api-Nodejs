@@ -28,7 +28,7 @@ app.get('/api/search', async (req, res) => {
 
 })
 app.get('/api', (req, res) => {
-    res.send("API WORKING")
+    res.send("API v2 WORKING ")
 })
 
 app.get('/', (req, res) => {
